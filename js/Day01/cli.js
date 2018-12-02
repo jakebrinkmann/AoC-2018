@@ -4,7 +4,7 @@
 import fs from 'fs'
 
 // Frequency drift tracking
-import { frequencyDrift } from './'
+import { frequencyLock } from './'
 
 // Read from STDIN as array, split on line-breaks
 function readStdIn() {
@@ -15,10 +15,10 @@ function readStdIn() {
 }
 
 // Read line-by-line as a list of signed integers
-function readFrequencyDrifts () {
+function readFrequencyLocks () {
   // Convert all input lines to number (e.g. "+1")
-  return frequencyDrift(readStdIn().map(Number))
+  return frequencyLock(readStdIn().map(Number))
 }
 
 // TODO: in js/index.js this module is just imported...so execute now
-console.log(readFrequencyDrifts())
+console.log(readFrequencyLocks())

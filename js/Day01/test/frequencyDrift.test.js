@@ -1,5 +1,5 @@
 // --- Day 1: Chronal Calibration ---
-import frequencyDrift from './frequencyDrift';
+import frequencyDrift from '../frequencyDrift';
 
 test('ensure time device is calibrated', () => {
   expect(frequencyDrift([+1, +1, +1], 0)).toBe(3)
