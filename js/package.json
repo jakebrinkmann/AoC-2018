@@ -1,0 +1,26 @@
+{
+  "name": "aoc-2018",
+  "version": "1.0.0",
+  "description": "> https://adventofcode.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakebrinkmann/AoC-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakebrinkmann/AoC-2018/issues"
+  },
+  "homepage": "https://github.com/jakebrinkmann/AoC-2018#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  }
+}
