@@ -37,8 +37,8 @@ docker build -t day2 .
 
 docker run -ti --rm \
   -p 9000:9000 \
-  -v "${PWD}/Day02/hello-world/src:/tmp/hello-world/src:ro" \
-  -v "${PWD}/Day02/hello-world/deps.edn:/tmp/hello-world/deps.edn:ro" \
+  -v "$PWD/Day02/hello-world/src:/tmp/hello-world/src:ro" \
+  -v "$PWD/Day02/hello-world/deps.edn:/tmp/hello-world/deps.edn:ro" \
   day2
 ```
 
